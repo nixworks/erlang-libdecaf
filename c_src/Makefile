@@ -93,7 +93,7 @@ CXXFLAGS += $(ARCHFLAGS)
 
 ED448GOLDILOCKS_VSN ?= features-20160902
 ED448GOLDILOCKS_DIR ?= $(BASEDIR)/.ed448goldilocks
-ED448GOLDILOCKS_GIT ?= git://github.com/potatosalad/ed448goldilocks.git
+ED448GOLDILOCKS_GIT ?= git@github.com:peatio/ed448goldilocks.git
 ED448GOLDILOCKS_OUTPUT_FILE ?= $(ED448GOLDILOCKS_DIR)/build/lib/libdecaf.so.1
 ED448GOLDILOCKS_OBJECTS ?= $(ED448GOLDILOCKS_DIR)/build/obj/curve25519/crypto.o	\
 	$(ED448GOLDILOCKS_DIR)/build/obj/curve25519/decaf.o	\
